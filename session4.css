@@ -1,0 +1,11 @@
+.blue-text {
+    text-align: center;
+    color: #1e90ff;
+}
+
+body {
+    ont-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f7f9; 
+    padding: 20px;
+}

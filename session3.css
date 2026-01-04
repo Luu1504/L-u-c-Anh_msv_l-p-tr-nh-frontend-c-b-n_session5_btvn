@@ -1,0 +1,16 @@
+.bluesub{
+    text-align: center;
+    color:#1e90ff;
+}
+.nosub{
+    text-align: center;
+}
+.strikethrough{
+    text-decoration: line-through;  
+}
+.markdown{
+    font-weight: bold;
+}
+body{
+    background-color:  #f4f4f9;
+}

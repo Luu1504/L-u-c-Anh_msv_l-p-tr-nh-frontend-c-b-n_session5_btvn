@@ -1,0 +1,45 @@
+.feedback-form {
+    font-family: Arial, sans-serif;
+    text-align: center; /* Căn giữa toàn bộ nội dung */
+    max-width: 500px;
+    margin: 0 auto;    /* Đưa form ra giữa màn hình */
+}
+
+/* Tiêu đề màu xanh dương */
+.feedback-form h2 {
+    color: #3399FF;
+    font-size: 28px;
+}
+
+/* Nhãn chữ phía trên các ô nhập */
+.feedback-form p {
+    margin: 15px 0 5px 0;
+    font-size: 18px;
+}
+
+/* Định dạng các ô nhập liệu */
+input, textarea {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #3399FF; /* Viền màu xanh dương */
+    outline: none;
+}
+
+textarea {
+    height: 100px;
+    resize: none; /* Không cho phép kéo dãn ô văn bản */
+}
+
+/* Định dạng nút Gửi ý kiến */
+.button-container {
+    margin-top: 20px;
+}
+
+button {
+    background-color: #00CCFF; 
+    color: white;
+    border: 2px solid black; 
+    padding: 5px 15px;
+    font-size: 16px;
+    cursor: pointer;
+}

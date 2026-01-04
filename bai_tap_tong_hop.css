@@ -1,0 +1,67 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+}
+
+
+.header-blue, .footer-blue {
+    background-color: #007bbd; 
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header-blue h1 {
+    margin: 0;
+}
+
+.container {
+    padding: 20px 40px;
+}
+
+.section-title {
+    color: #005a8e; 
+    margin-top: 30px;
+}
+
+
+.highlight-blue {
+    color: #0099ff;
+    font-style: italic;
+}
+
+
+.note-red {
+    color: #e60000;
+}
+
+
+.service-list {
+    list-style: none; 
+    padding-left: 0;
+}
+
+.service-list li::before {
+    content: "🦷 "; 
+    margin-right: 10px;
+}
+
+
+.booking-link {
+    color: #004080;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.footer-blue {
+    margin-top: 50px;
+}
+
+.footer-blue h2 {
+    margin: 0;
+    font-size: 24px;
+}
